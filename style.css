@@ -1,0 +1,81 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f479db;
+    border: #f479db;
+    border-radius: 50px;
+    box-shadow: 10px 10px #eca0dd;
+}
+h1{
+    font-size: 100px;
+    padding-left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(78, 243, 188)
+}
+#button{
+    display: flex;
+    flex-direction: column;
+    padding-top: 180px;
+    padding-right: 450px;
+    padding-left: 500px;
+}
+#link {
+    padding-left: 500px;
+    padding-top: 15px;
+}
+a{
+    padding: 4px;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #f479db;
+}
+.right{
+    border: #b8b8b8 2px;
+    border-radius: 50px;
+    background-color: rgb(78, 243, 188);
+    box-shadow: 10px 10px rgb(139, 242, 207);
+}
+#id{
+    padding-top: 400px;
+}
+input{
+    padding: 10px;
+    border: #b8b8b8 2px;
+    border-radius: 30px;
+}
+button {
+    padding: 10px;
+    border: #b8b8b8 2px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+#click {
+    display: flex;
+    flex-direction: column;
+}
+input, button {
+    margin-bottom: 10px;
+    background-color: #f479db;
+}
+input::placeholder {
+    text-align: center;
+    color: white;
+}
+button:hover {
+    background-color: rgb(103, 37, 120);
+    font-size: 20px;
+}
+input:hover{
+    background-color: rgb(103, 37, 120);
+}
+a:hover{
+    color: rgb(81, 12, 159);
+}
+input[type="text"] {
+    color: white;
+}
+
+input[type="password"] {
+    color: white;
+}
+
